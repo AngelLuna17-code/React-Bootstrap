@@ -1,5 +1,9 @@
-const Home = () =>{
- return <h1>Home</h1>;
-}
+import { Button } from 'react-bootstrap';
+
+const Home = () => {
+    return (
+        <Button variant="primary">Primary</Button>
+    );
+};
 
 export default Home;
